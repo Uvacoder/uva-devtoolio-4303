@@ -1,6 +1,6 @@
 import { Button, Link, ButtonProps, useColorModeValue } from "@chakra-ui/react";
 import NextLink from "next/link";
-import { IconName } from "react-icons/tb"; import { IconName } from "react-icons/tb";
+import { TbAdjustmentsAlt  } from "react-icons/tb"; 
 
 interface ToolComponentProps extends ButtonProps {
   toolName: string;
@@ -10,6 +10,7 @@ interface ToolComponentProps extends ButtonProps {
 const Tool = ({ toolName, href, ...otherProps }: ToolComponentProps) => (
   <NextLink href={href} passHref>
     <Button
+      leftIcon= {<TbAdjustmentsAlt>}
       ml={4}
       bgColor={useColorModeValue("gray.200", "gray.700")}
       w="250px"
