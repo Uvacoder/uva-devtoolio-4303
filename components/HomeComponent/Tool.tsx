@@ -1,5 +1,6 @@
 import { Button, Link, ButtonProps, useColorModeValue } from "@chakra-ui/react";
 import NextLink from "next/link";
+import { IconName } from "react-icons/tb"; import { IconName } from "react-icons/tb";
 
 interface ToolComponentProps extends ButtonProps {
   toolName: string;
