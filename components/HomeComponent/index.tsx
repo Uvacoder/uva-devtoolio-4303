@@ -33,13 +33,13 @@ const HomeComponent = (props: HomeComponentProps): JSX.Element => (
             fontWeight="extrabold"
           >
             <chakra.span display={{ base: "block", xl: "inline" }}>
-              Tools for{" "}
+              devTools for{" "}
             </chakra.span>
             <chakra.span
               display={{ base: "block", xl: "inline" }}
               color={useColorModeValue("green.500", "green.400")}
             >
-              Developers
+              Toolios
             </chakra.span>
           </chakra.h1>
           <chakra.h1
@@ -48,13 +48,13 @@ const HomeComponent = (props: HomeComponentProps): JSX.Element => (
             mt={2}
           >
             <chakra.span display={{ base: "block", xl: "inline" }}>
-              By the{" "}
+              by {" "}
             </chakra.span>
             <chakra.span
               display={{ base: "block", xl: "inline" }}
               color={useColorModeValue("green.500", "green.400")}
             >
-              Developer Community
+              Toolios Everywhere
             </chakra.span>
           </chakra.h1>
         </Box>
